@@ -1,0 +1,169 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    background: url("./Components/assets/jadoo/Decore.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: top;
+}
+.mainheader {
+    display: flex;
+
+    height: 40px;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 44px 10px;
+}
+.logo {
+    padding-left: 30px;
+    width: 114.91px;
+    height: 33.99px;
+
+    /* position: relative; */
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+.navbar ul li {
+    padding: 5px;
+    margin-left: 30px;
+}
+li a {
+    text-decoration: none;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height */
+
+    /* 1st */
+
+    color: #212832;
+}
+.signup {
+    width: 102px;
+    height: 40px;
+    border: 1px solid #212832;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+}
+.signup-btn {
+    width: 59px;
+    height: 22px;
+
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height */
+
+    /* 1st */
+
+    color: #212832;
+}
+select {
+    border: 0px;
+    outline: 0px;
+}
+.decore {
+    display: flex;
+    padding: 0px 50px;
+    height: 100vh;
+}
+.left-sec {
+    width: 40%;
+    padding-top: 100px;
+
+    height: 30px;
+}
+.left-sec h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #df6951;
+}
+.left-sec h1 {
+    font-family: Volkhov;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 89px;
+
+    letter-spacing: -0.04em;
+
+    /* 1st */
+    color: #181e4b;
+}
+.decor {
+    background-image: url("./Components/assets/jadoo/Decor.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 50%;
+    display: inline-block;
+}
+.left-sec p {
+    /* Desc */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+
+    color: #5e6282;
+}
+.findoutmore {
+    border-radius: 10px;
+    border: none;
+    /* background-color: #4caf50; */
+    background: #f1a501;
+    padding: 10px 30px 10px 30px;
+}
+.findoutmore p {
+    font-family: Google Sans;
+
+    font-weight: 500;
+    font-size: 12px;
+
+    text-align: center;
+    color: white;
+}
+.play {
+    display: inline;
+}
+.right-sec {
+    width: 50%;
+    position: relative;
+}
+.planeimg1 {
+    position: absolute;
+    top: 57px !important;
+    left: 100px !important;
+}
+
+.planeimg2 {
+    position: absolute;
+    top: 72px !important;
+    right: -172px !important;
+}
