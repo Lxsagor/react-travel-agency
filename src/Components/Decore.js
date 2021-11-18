@@ -2,6 +2,9 @@ import React from "react";
 import plane from "./assets/jadoo/plane.png";
 import traveller from "./assets/jadoo/Traveller.png";
 import arrow from "./assets/jadoo/arrow.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FaPlayCircle } from "react-icons/fa";
+import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
 
 const Decore = () => {
     return (
@@ -26,7 +29,7 @@ const Decore = () => {
                 </button>
 
                 <button className="playdemo">
-                    <img src={arrow} alt="" />
+                    <FontAwesomeIcon icon={faPlayCircle} />
                 </button>
                 <div className="play">Play demo</div>
             </div>
